@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;    
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+        
+}
+
+.heading {
+    position: fixed;
+    top: 0;
+    background-color: rgb(240, 6, 6);
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    color: white;
+    font-size: 3em;
+    padding: 0px;
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+    z-index: 1000;
+    font-size: "Times New Roman", Times, serif;
+}
+
+.card {
+    background-color: rgb(217, 215, 215);
+    height: 320px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;  
+    margin-top: 80px;
+    border:5px solid rgb(220, 1, 254);
+    border-radius:20px;
+    flex-direction: column;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 20px;
+    
+    
+}   
+
+.card_heading {
+    font-size: 1.5em;
+    border: 1px solid black;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    line-height: 0px;
+}
+
+.subheading {
+    font-size: 1.2em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: 'Garuda', serif;
+    font-style: italic;
+    display: flex;
+    columns: 3;
+    align-self: space-between;
+}
+
+.details {    
+    display: flex;              
+    font-family: 'Garuda', serif;
+    font-style: italic;
+    align-items: space-between;
+    padding: 0px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.footer {
+    font-size: 0.5em;
+    
+
+}
+
+.qr_code {
+    position: absolute;
+    align-self: flex-end;
+    margin-top: 130px;
+    margin-right: 20px;
+    font-size: 0.2em;
+    text-transform: uppercase;
+    color: chocolate;
+    align-items: center;
+    justify-content: center;
+}
+
